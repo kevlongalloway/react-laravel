@@ -64,13 +64,4 @@ App should be running on http://localhost:80
 ### To-Do
 
 1. Webpack and Babel configuration for Frontend & Updating the versions of the dependencies in Frontend
-2. Creating some examples in Backend & Frontend, example request & response.
-
-### Changelog
-
-#### 2021-07-31
-- **[Backend]** PHP version updated to 7.4
-- **[Backend]** Laravel update 7 to 8
-- **[Backend]** Composer & NPM update and audits
-- **[Backend]** Docker multistage build
-- **[Frontend]** NPM update and audits
+2. Backend - Configure route protection for api authenticated routes
