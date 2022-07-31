@@ -16,7 +16,32 @@ Just a basic boilerplate to start directly coding on React, Laravel, MySQL and P
 
 MySQL Version: 5.7.x
 
-## Using the Project
+## To start the project
+
+Clone this repository
+```
+git clone https://github.com/kevlongalloway/react-laravel.git
+```
+
+Change directory into laravel project
+```
+cd react-laravel/app-backend
+```
+
+Run composer install
+```
+composer install
+```
+
+Generate new Application Key
+```
+php artisan key:generate
+```
+
+Go to root directory of project
+```
+cd ..
+```
 
 Execute the following command and the Docker will build and run the containers;
 
@@ -24,14 +49,17 @@ Execute the following command and the Docker will build and run the containers;
 docker-compose up --build
 ```
 
+While the containers are running, open a new tab in terminal and run the following command to run database migrations
+```
+docker exec -it php php artisan migrate --seed
+```
+
+App should be running on http://localhost:80
+
 ### To-Do
 
 1. Webpack and Babel configuration for Frontend & Updating the versions of the dependencies in Frontend
 2. Creating some examples in Backend & Frontend, example request & response.
-
-### Contribution
-
-Feel free to contribute this project.
 
 ### Changelog
 
