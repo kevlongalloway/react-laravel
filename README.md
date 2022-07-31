@@ -33,6 +33,11 @@ Run composer install
 composer install
 ```
 
+Copy .env.example to .env
+```
+cp .env.example .env
+```
+
 Generate new Application Key
 ```
 php artisan key:generate
