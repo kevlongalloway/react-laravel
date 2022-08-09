@@ -1,4 +1,4 @@
-# Simple API and React Application
+# Simple Laravel API and React Application
 - Docker Compose 
 - React
 - Laravel
@@ -7,7 +7,7 @@
 
 ## Frontend
 - NodeJS 13.10.1 Alpine
-- React 16.13.0
+- React 16.8.6
 - Webpack 4
 
 ## Backend
