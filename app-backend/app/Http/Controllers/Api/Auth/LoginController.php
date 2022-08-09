@@ -14,7 +14,7 @@ class LoginController extends Controller
 {
     protected $failedLoginResponse = [
         'success' => false,
-        'errors' => 'These credentials do not match our records.'
+        'error' => 'These credentials do not match our records.'
     ];
 
     public function __construct()
