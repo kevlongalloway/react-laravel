@@ -1,5 +1,9 @@
 # Simple API and React Application
-## Docker Compose - React, Laravel, MySQL, PhpMyAdmin
+- Docker Compose 
+- React
+- Laravel
+- MySQL
+- PhpMyAdmin
 
 ## Frontend
 - NodeJS 13.10.1 Alpine
